@@ -50,7 +50,6 @@ def ReadInFurnishedFinderHousingRequestsEmails():
 # 2 - Loop through the emails and put the following information from EACH email into a new row of a pandas dataframe:
 # Tenant, Email Address, Phone Number, Number of Travelers, and Dates
 def PullInformationFromEmailsAndPutIntoDataframe(emails):
-    # TODO: write the code for this function to return the full dateframe
     email_data = []
     for email in emails:
         payload = email['payload']
